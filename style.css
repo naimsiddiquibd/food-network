@@ -41,6 +41,9 @@ nav ul li a {
 h1 {
   font-size: 50px;
 }
+p {
+  font-size: 20px;
+}
 .flex-container {
   display: flex;
 }
@@ -79,4 +82,53 @@ span {
   width: 70%;
   padding-right: 10%;
   padding-top: 15%;
+}
+.fourth-half-width {
+  width: 65%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.fourth-half-width img {
+  width: 100%;
+}
+.our-food {
+  text-align: center;
+  padding-top: 3%;
+}
+.our-food p {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.food-images {
+  width: 100%;
+}
+.last-section {
+  display: flex;
+  padding: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.last-section img {
+  width: 100%;
+  border-radius: 15px;
+  padding: 5px;
+}
+.box-shadow {
+  box-shadow: 5px 5px 20px rgb(207, 196, 196);
+  margin-right: 2%;
+  padding: 10px;
+  border-radius: 25px;
+}
+.follow {
+  padding: 105px;
+  margin-bottom: 10%;
+}
+.follow-section {
+  display: flex;
+  box-shadow: 5px 5px 50px rgb(231, 216, 216);
+}
+.subscribers {
+  padding: 3%;
+  margin-left: 10%;
+  text-align: center;
 }
