@@ -1,6 +1,6 @@
 * {
-  padding: 0;
-  margin: 0;
+  padding: 2px;
+  margin: 5px;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
@@ -39,7 +39,7 @@ nav ul li a {
   text-transform: uppercase;
 }
 h1 {
-  font-size: 40px;
+  font-size: 50px;
 }
 .flex-container {
   display: flex;
@@ -66,4 +66,17 @@ h1 {
 }
 span {
   color: orange;
+}
+.banner {
+  background-image: url(images/background.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.third-half-width {
+  width: 70%;
+  padding-right: 10%;
+  padding-top: 15%;
 }
